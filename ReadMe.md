@@ -93,7 +93,6 @@ If there are errors, run
 ### Incorporate Github Actions and Workflows
 
 ```
-
   $ code .github/workflows/LintAndTestWorkflow.yml
 
   $ code .github/pull_request_template.md
@@ -105,5 +104,4 @@ If there are errors, run
   $ git add .
 
   $ git commit -m "Initial commit"
-
 ```

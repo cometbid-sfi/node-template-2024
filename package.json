@@ -4,11 +4,11 @@
   "description": "$ npm init -y",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
+    "test": "jest --watchAll=false",
     "build": "tsc",
     "build:watch": "tsc --watch",
     "prepare": "npm run build",
-    "test:watch": "jest --watchAll",
+    "test:watch": "jest --watchAll=false",
     "lint": "eslint"
   },
   "keywords": [],
