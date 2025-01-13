@@ -94,22 +94,11 @@ If there are errors, run
 
 ### Incorporate Github Actions and Workflows
 
-<<<<<<< Updated upstream
-`$ code .github/workflows/LintAndTestWorkflow.yml`
-
-`$ code .github/pull_request_template.md`
-=======
 ```
   $ code .github/workflows/LintAndTestWorkflow.yml
->>>>>>> Stashed changes
 
-`$ code .gitignore`
+  $ code .github/pull_request_template.md`
 
-<<<<<<< Updated upstream
-`$ git init`
-`$ git add .`
-`$ git commit -m "Initial commit"`
-=======
   $ code .gitignore
 
   $ git init
@@ -118,4 +107,3 @@ If there are errors, run
 
   $ git commit -m "Initial commit"
 ```
->>>>>>> Stashed changes
