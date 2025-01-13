@@ -41,8 +41,6 @@ Add tsconfig.json in /tests/ as well to ensure type checking
 
 `$ npm init @eslint/config@latest`
 
-`$ npm init @eslint/config@latest`
-
 ```
 > template-2024@1.0.0 npx  
 > create-config
