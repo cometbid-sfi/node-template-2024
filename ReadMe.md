@@ -87,17 +87,20 @@ Add "lint": "eslint" to script section
 
 `$ npm run lint`
 
-If there are errors, run
+If there are errors, run   
+
 `$ npm run lint -- --fix`
 
 ### Incorporate Github Actions and Workflows
 
-`$ code .github/workflows/LintAndTestWorkflow.yml`
+`$ code .github/workflows/LintAndTestWorkflow.yml`  
 
-`$ code .github/pull_request_template.md`
+`$ code .github/pull_request_template.md`  
 
-`$ code .gitignore`
+`$ code .gitignore`  
 
-`$ git init`
-`$ git add .`
-`$ git commit -m "Initial commit"`
+`$ git init`  
+
+`$ git add .`  
+
+`$ git commit -m "Initial commit"`  
