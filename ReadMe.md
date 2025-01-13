@@ -96,3 +96,5 @@ $ code .github/pull_request_template.md
 $ code .gitignore
 
 $ git init
+$ git add .
+$ git commit -m "Initial commit"
