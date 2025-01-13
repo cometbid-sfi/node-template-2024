@@ -6,7 +6,7 @@
 
 `$ npm install typescript ts-node @types/node @tsconfig/node20 --save-dev`
 
-i. Generate tsconfig.json  
+i. Generate tsconfig.json
 
 Type in Google search "Typescript handbook", visit dedicated base files on github
 
@@ -42,7 +42,7 @@ Add tsconfig.json in /tests/ as well to ensure type checking
 `$ npm init @eslint/config@latest`
 
 ```
-> template-2024@1.0.0 npx  
+> template-2024@1.0.0 npx
 > create-config
 
 @eslint/create-config: v1.4.0
@@ -70,7 +70,6 @@ Add Jest to ESLint config
 
 `import jest from "eslint-plugin-jest";`
 
-
 ### Install Prettier - Code formatter plugin
 
 `$ npm install --save-dev eslint-plugin-prettier eslint-config-prettier`
@@ -87,20 +86,24 @@ Add "lint": "eslint" to script section
 
 `$ npm run lint`
 
-If there are errors, run   
+If there are errors, run
 
 `$ npm run lint -- --fix`
 
 ### Incorporate Github Actions and Workflows
 
-`$ code .github/workflows/LintAndTestWorkflow.yml`  
+```
 
-`$ code .github/pull_request_template.md`  
+  $ code .github/workflows/LintAndTestWorkflow.yml
 
-`$ code .gitignore`  
+  $ code .github/pull_request_template.md
 
-`$ git init`  
+  $ code .gitignore
 
-`$ git add .`  
+  $ git init
 
-`$ git commit -m "Initial commit"`  
+  $ git add .
+
+  $ git commit -m "Initial commit"
+
+```
