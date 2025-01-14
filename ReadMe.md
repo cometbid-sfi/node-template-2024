@@ -105,3 +105,13 @@ If there are errors, run
 
   $ git commit -m "Initial commit"
 ```
+
+### Include nodemon
+
+$ npm i nodemon dotenv-cli --save-dev
+
+$ code nodemon.json
+
+### Install a Sequelize (Optional)
+
+docker run --name mysql-db -p 3306:3306 -e MYSQL_ROOT_PASSWORD=secret -d mysql:latest
