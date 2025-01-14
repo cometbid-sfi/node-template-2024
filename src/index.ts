@@ -1,6 +1,14 @@
-import config from "./config";
+import sequelize from "./db-connection";
+import Person from "./models/Person";
 import { add } from "./utils";
 
-console.log("sum", add(1, 3));
+(async () => {
+  await sequelize.sync();
+  Person.create({
+    name: "Sam",
+  });
 
-console.log("debug", config.debug);
+  console.log("sum", add(1, 3));
+})();
+
+//console.log("debug", config.debug);

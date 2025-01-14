@@ -115,3 +115,12 @@ $ code nodemon.json
 ### Install a Sequelize (Optional)
 
 docker run --name mysql-db -p 3306:3306 -e MYSQL_ROOT_PASSWORD=secret -d mysql:latest
+
+$ npm i --save-dev @types/node @types/validator
+$ npm i mysql2 sequelize reflect-metadata sequelize-typescript
+
+**In tsconfig.ts needs the following flags:**
+
+"target": "es6",
+"experimentalDecorators": true,
+"emitDecoratorMetadata": true
